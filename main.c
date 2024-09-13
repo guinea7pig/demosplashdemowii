@@ -7,11 +7,6 @@ WIRE_APPLICATION(cube);		// This macro creates our user application.
 //----------------------------------------------------------------------------
 Bool Sample0::OnPrecreate()
 {
-	// This function is called before the creation of the application window
-	// and its renderer.
-
-	// The platform dependent part of the application might need to do some
-	// initialization. If it fails, we return false and the application exits.
 	if (!Parent::OnPrecreate())
 	{
 		return false;
