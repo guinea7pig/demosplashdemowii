@@ -2,7 +2,7 @@
 
 using namespace Wire;
 
-WIRE_APPLICATION(Sample0);		// This macro creates our user application.
+WIRE_APPLICATION(cube);		// This macro creates our user application.
 
 //----------------------------------------------------------------------------
 Bool Sample0::OnPrecreate()
